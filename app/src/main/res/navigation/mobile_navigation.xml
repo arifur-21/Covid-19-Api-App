@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeIconId">
+
+    <fragment
+        android:id="@+id/homeIconId"
+        android:name="com.example.myapplicationnav.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/stateId"
+        android:name="com.example.myapplicationnav.ui.dashboard.Stats"
+        android:label="Covidn 19"
+        tools:layout="@layout/fragment_stats" />
+
+
+</navigation>
